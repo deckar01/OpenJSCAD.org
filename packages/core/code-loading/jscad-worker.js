@@ -3,6 +3,7 @@
 // == OpenJSCAD.org, Copyright (c) 2013-2016, Licensed under MIT License
 const {isCSG, isCAG} = require('@jscad/csg')
 const oscad = require('@jscad/csg/api')
+require('csg-curry')
 const createJscadFunction = require('./jscad-function')
 const { toArray } = require('../utils/arrays')
 

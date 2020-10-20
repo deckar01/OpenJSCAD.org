@@ -1,4 +1,5 @@
 const oscad = require('@jscad/csg/api')
+require('csg-curry')
 const { prepareOutput } = require('./io/prepareOutput')
 const { convertToBlob } = require('./io/convertToBlob')
 const { rebuildSolids } = require('./code-evaluation/rebuildSolids')
